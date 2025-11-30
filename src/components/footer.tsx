@@ -8,7 +8,7 @@ import { getPersonalData } from "@/lib/data";
 export function Footer() {
     const personalData = getPersonalData();
     return (
-        <footer className="border-t bg-muted/50">
+        <footer className="border-t bg-muted/50 flex items-center justify-center">
             <div className="container flex flex-col items-center justify-between gap-4 py-10 md:h-24 md:flex-row md:py-0 px-4 md:px-6">
                 <div className="flex w-full flex-col items-center">
                     <p className="text-center text-sm leading-loose text-muted-foreground md:text-left">
